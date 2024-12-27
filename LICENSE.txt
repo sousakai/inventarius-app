@@ -1,0 +1,29 @@
+Licença Proprietária - Inventarius
+Copyright (c) 2024, Kayke Gonçalves de Sousa.
+
+1. Concessão de Licença
+O software Inventarius é licenciado para uso pessoal e não comercial. O usuário pode utilizar o software para fins pessoais, mas não pode utilizá-lo para fins comerciais. A licença é concedida exclusivamente para o usuário final e está sujeita às restrições descritas nesta licença. 
+
+2. Uso Permitido
+O usuário tem permissão para:
+
+Utilizar o software somente para fins pessoais, em sistemas operacionais compatíveis, conforme sua finalidade.
+Utilizar o software para testes.
+
+Proibido:
+
+Utilizar o software para fins comerciais.
+Modificar, copiar, redistribuir ou vender o software sem autorização expressa do desenvolvedor.
+Realizar engenharia reversa ou alterar a estrutura do software.
+
+3. Propriedade
+O software e todos os seus direitos autorais são de propriedade exclusiva de Kayke Gonçalves de Sousa. Nenhum direito de propriedade intelectual é transferido ao usuário.
+
+4. Garantias
+O software é fornecido "como está", sem garantias de qualquer tipo, expressas ou implícitas. O desenvolvedor não se responsabiliza por quaisquer danos diretos ou indiretos, incluindo, mas não se limitando a, danos resultantes de uso indevido, perda de dados ou falhas no sistema.
+
+5. Término da Licença
+A licença pode ser encerrada a qualquer momento, caso o usuário viole qualquer uma das condições descritas nesta licença.
+
+6. Jurisdicação
+Esta licença será regida pelas leis do Brasil.
