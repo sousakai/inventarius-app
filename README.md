@@ -5,6 +5,8 @@ O sistema INVENTARIUS possui o objetivo de facilitar o gerenciamento de materiai
 
 **Versão:** 0.1.0 
 
+Em caso de bugs, erros ou contato com o desenvolvedor, envie um [email](mailto:kayke.gsousa15@gmail.com)
+
 Autores:
 [Kayke Gonçalves de Sousa](https://github.com/sousakai)
 
