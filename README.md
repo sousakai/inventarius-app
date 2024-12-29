@@ -15,3 +15,8 @@ Autores:
 - Linguaem Java, com uso de JavaFX para a GUI;
 - IntelliJ IDE;
 - Maven.
+
+## Protótipo
+O protótipo da aplicação foi realizado no Figma, com o objetivo de facilitar o desenvolvimento. Não necessariamente será o design final.
+
+[Protótipo Figma](https://www.figma.com/proto/s9RyefK5gAj0Ud8nXCfbD7/INVENTARIUS?node-id=0-1&t=LCF44f6bc9y6Ef0O-1)
