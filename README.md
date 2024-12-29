@@ -1,4 +1,4 @@
-# INVENTARIUS <img loading="lazy" src="/docs/icone.png" width="180px" height="180px">
+# INVENTARIUS <img loading="lazy" src="/docs/icone.png" width="60px" height="60px">
 
 ## Sobre o software:
 O sistema INVENTARIUS possui o objetivo de facilitar o gerenciamento de materiais, e exportar os dados em planilha excel. Ainda está em processo de desenvolvimento. Novas funcionalidades serão incluídas com o tempo.
