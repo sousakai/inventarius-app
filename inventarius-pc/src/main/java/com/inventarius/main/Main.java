@@ -1,33 +1,37 @@
 package com.inventarius.main;
 
-import com.inventarius.model.Material;
-import com.inventarius.model.Inventario;
+import javax.swing.*;
+import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
-        // Criando o inventário
-        Inventario inventario = new Inventario();
+        SwingUtilities.invokeLater(() -> {
+            JFrame frame = new JFrame("Inventarius v0.05.0");
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setSize(700, 600);
+            frame.setLayout(null);  // Desabilita o layout automático
 
-        // Criando os objetos de material
-        Material cimento = new Material("Cimento", 50);
-        Material areia = new Material("Areia", 100);
+            JLabel label = new JLabel("Teste de Tela OK!", SwingConstants.CENTER);
+            frame.add(label);
 
-        // Adicionando materiais ao inventário
-        inventario.adicionarMaterial(cimento); // Passando o objeto Material diretamente
-        inventario.adicionarMaterial(areia);   // Passando o objeto Material diretamente
+            frame.setVisible(true);
 
-        // Consultando materiais
-        Material consultaCimento = inventario.consultarMaterial("Cimento");
-        if (consultaCimento != null) {
-            System.out.println("Material encontrado: " + consultaCimento.getNome() + " - Quantidade: " + consultaCimento.getQuantidade());
-        } else {
-            System.out.println("Material não encontrado.");
-        }
+            //Cria uma box para "conter" o texto.
+            JPanel panel = new JPanel();
+            panel.setBackground(Color.gray);
+            panel.setBounds(150, 150, 400, 200); // Define a posição e tamanho do painel
 
-        // Tentando subtrair quantidade
-        inventario.diminuirQuantidade("Cimento", 20); // Subtrai 20 unidades de cimento
-        inventario.diminuirQuantidade("Areia", 50);   // Subtrai 50 unidades de areia
-        inventario.diminuirQuantidade("Cimento", 40); // Tentando subtrair mais do que há disponível
-        inventario.exportarParaArquivoTxt();
+            //Muda a cor do fundo para o azul em RGB.
+            frame.getContentPane().setBackground(new Color(0, 51, 102));
+
+            //Muda a cor do texto para branco.
+            label.setForeground(Color.white);
+
+            //Adiciona o JLabel dentro do JPanel
+            panel.add(label);
+
+            //Adiciona o JPanel ao JFrame
+            frame.add(panel);
+        });
     }
 }
