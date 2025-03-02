@@ -2,7 +2,7 @@
 ## CONTATO:
 Kayke Gonçalves de Sousa
 
-[LinkedIn](edin.com/in/kayke-sousa/)!
+[LinkedIn](linkedin.com/in/kayke-sousa/)!
 
 e-mail: kayke.gsousa15@gmail.com
 
