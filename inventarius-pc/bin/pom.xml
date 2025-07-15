@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.inventarius</groupId>
+    <artifactId>Inventarius</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <repositories>
+        <repository>
+            <id>openjfx-repo</id>
+            <url>https://repo.openjfx.io</url>
+        </repository>
+    </repositories>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>  <!-- A versão do Java que você está usando -->
+        <maven.compiler.target>17</maven.compiler.target>  <!-- A versão do Java que você está usando -->
+        <javafx.version>19</javafx.version>  <!-- A versão do JavaFX que você quer usar -->
+    </properties>
+
+    <dependencies>
+        <!-- Dependência do JavaFX -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.8</version>
+                <configuration>
+                    <mainClass>com.inventarius.main.Main</mainClass>  <!-- Substitua com a sua classe principal -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
