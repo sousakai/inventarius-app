@@ -10,12 +10,16 @@ import javax.swing.SwingConstants;
 import java.awt.Font;
 import javax.swing.BoxLayout;
 import javax.swing.SpringLayout;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class Tela extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 
+	JFrame frame = this;
 	/**
 	 * Launch the application.
 	 */
@@ -56,5 +60,17 @@ public class Tela extends JFrame {
 		lblKayke.setFont(new Font("Baskerville Old Face", Font.ITALIC, 15));
 		lblKayke.setBounds(228, 353, 185, 22);
 		contentPane.add(lblKayke);
+		
+		JButton btnInicio = new JButton("Iniciar");
+		btnInicio.setFont(new Font("Tahoma", Font.BOLD, 12));
+		btnInicio.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				TelaCadastro telaCadastro = new TelaCadastro();
+				telaCadastro.setVisible(true);
+				frame.dispose();
+			}
+		});
+		btnInicio.setBounds(248, 172, 149, 58);
+		contentPane.add(btnInicio);
 	}
 }
