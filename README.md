@@ -12,9 +12,9 @@ Autores:
 [Kayke Gonçalves de Sousa](https://github.com/sousakai)
 
 ## Recursos técnicos:
-- Linguaem Java, com uso de JavaSwing para a GUI;
-- IntelliJ IDE;
-- Maven.
+- Linguaem Java, com uso de JavaSwing  e WindowBuilder para a GUI
+- Eclipse IDE
+- Maven
 
 ## Protótipo
 O protótipo da aplicação foi realizado no Figma, com o objetivo de facilitar o desenvolvimento. Não necessariamente será o design final.
