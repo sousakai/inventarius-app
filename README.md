@@ -12,7 +12,7 @@ Autores:
 [Kayke Gonçalves de Sousa](https://github.com/sousakai)
 
 ## Recursos técnicos:
-- Linguaem Java, com uso de JavaFX para a GUI;
+- Linguaem Java, com uso de JavaSwing para a GUI;
 - IntelliJ IDE;
 - Maven.
 
